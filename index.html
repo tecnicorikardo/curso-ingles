@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Completo de Inglês - Do Básico ao Avançado</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Inglês Completo</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#niveis" class="nav-link">Níveis</a></li>
+                    <li><a href="#pronuncia" class="nav-link">Pronúncia</a></li>
+                    <li><a href="#exercicios" class="nav-link">Exercícios</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Hero -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Aprenda Inglês de Forma Completa</h1>
+                    <p class="hero-subtitle">Do nível iniciante ao avançado, com exercícios práticos e guias de pronúncia detalhados</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('niveis')">
+                            <i class="fas fa-play"></i>
+                            Começar Agora
+                        </button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('pronuncia')">
+                            <i class="fas fa-microphone"></i>
+                            Guia de Pronúncia
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-card">
+                        <i class="fas fa-globe"></i>
+                        <h3>6 Níveis Completos</h3>
+                        <p>A1 → A2 → B1 → B2 → C1 → C2</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Níveis -->
+        <section id="niveis" class="niveis">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Níveis de Aprendizado</h2>
+                    <p>Escolha seu nível e comece sua jornada no inglês</p>
+                </div>
+                
+                <div class="niveis-grid">
+                    <div class="nivel-card" data-nivel="a1">
+                        <div class="nivel-header">
+                            <div class="nivel-icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <h3>Nível A1</h3>
+                            <span class="nivel-subtitle">Iniciante</span>
+                        </div>
+                        <div class="nivel-content">
+                            <ul>
+                                <li>Saudações e apresentações</li>
+                                <li>Verbo 'to be'</li>
+                                <li>Números e cores</li>
+                                <li>Vocabulário básico</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-outline" onclick="carregarNivel('a1')">
+                            Estudar A1
+                        </button>
+                    </div>
+
+                    <div class="nivel-card" data-nivel="b1">
+                        <div class="nivel-header">
+                            <div class="nivel-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h3>Nível B1</h3>
+                            <span class="nivel-subtitle">Intermediário</span>
+                        </div>
+                        <div class="nivel-content">
+                            <ul>
+                                <li>Conversação fluente</li>
+                                <li>Gramática intermediária</li>
+                                <li>Expressões idiomáticas</li>
+                                <li>Compreensão avançada</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-outline" onclick="carregarNivel('b1')">
+                            Estudar B1
+                        </button>
+                    </div>
+
+                    <div class="nivel-card" data-nivel="b2">
+                        <div class="nivel-header">
+                            <div class="nivel-icon">
+                                <i class="fas fa-tree"></i>
+                            </div>
+                            <h3>Nível B2</h3>
+                            <span class="nivel-subtitle">Independente</span>
+                        </div>
+                        <div class="nivel-content">
+                            <ul>
+                                <li>Comunicação complexa</li>
+                                <li>Argumentação e debate</li>
+                                <li>Vocabulário sofisticado</li>
+                                <li>Fluência natural</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-outline" onclick="carregarNivel('b2')">
+                            Estudar B2
+                        </button>
+                    </div>
+
+                    <div class="nivel-card" data-nivel="c1">
+                        <div class="nivel-header">
+                            <div class="nivel-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3>Nível C1</h3>
+                            <span class="nivel-subtitle">Avançado</span>
+                        </div>
+                        <div class="nivel-content">
+                            <ul>
+                                <li>Maestria linguística</li>
+                                <li>Expressão sofisticada</li>
+                                <li>Compreensão nativa</li>
+                                <li>Fluência total</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-outline" onclick="carregarNivel('c1')">
+                            Estudar C1
+                        </button>
+                    </div>
+
+                    <div class="nivel-card" data-nivel="c2">
+                        <div class="nivel-header">
+                            <div class="nivel-icon">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <h3>Nível C2</h3>
+                            <span class="nivel-subtitle">Maestria</span>
+                        </div>
+                        <div class="nivel-content">
+                            <ul>
+                                <li>Nível nativo</li>
+                                <li>Compreensão total</li>
+                                <li>Expressão perfeita</li>
+                                <li>Fluência absoluta</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-outline" onclick="carregarNivel('c2')">
+                            Estudar C2
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal para conteúdo dos níveis -->
+        <div id="nivelModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modalTitle">Conteúdo do Nível</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- Conteúdo será carregado dinamicamente -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Pronúncia -->
+        <section id="pronuncia" class="pronuncia">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Guia de Pronúncia</h2>
+                    <p>Dicas e exercícios para melhorar sua pronúncia</p>
+                </div>
+                
+                <div class="pronuncia-content">
+                    <div class="pronuncia-card">
+                        <div class="pronuncia-icon">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <h3>Dicas Gerais</h3>
+                        <ul>
+                            <li>Ouça atentamente falantes nativos</li>
+                            <li>Imitar os sons que você ouve</li>
+                            <li>Use recursos online de pronúncia</li>
+                            <li>Grave-se falando para comparar</li>
+                            <li>Concentre-se nos sons difíceis</li>
+                        </ul>
+                    </div>
+
+                    <div class="pronuncia-card">
+                        <div class="pronuncia-icon">
+                            <i class="fas fa-volume-up"></i>
+                        </div>
+                        <h3>Sons Desafiadores</h3>
+                        <ul>
+                            <li><strong>TH sounds:</strong> θ como em "think"</li>
+                            <li><strong>R sound:</strong> Som retroflexo americano</li>
+                            <li><strong>Vowel sounds:</strong> Diferenças sutis</li>
+                            <li><strong>Connected speech:</strong> Palavras conectadas</li>
+                        </ul>
+                    </div>
+
+                    <div class="pronuncia-card">
+                        <div class="pronuncia-icon">
+                            <i class="fas fa-headphones"></i>
+                        </div>
+                        <h3>Exercícios Práticos</h3>
+                        <ul>
+                            <li>Ditado e transcrição</li>
+                            <li>Shadowing (repetição simultânea)</li>
+                            <li>Leitura em voz alta</li>
+                            <li>Role-playing e diálogos</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" onclick="carregarGuiaPronuncia()">
+                    <i class="fas fa-book-open"></i>
+                    Ver Guia Completo
+                </button>
+            </div>
+        </section>
+
+        <!-- Seção de Exercícios -->
+        <section id="exercicios" class="exercicios">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Exercícios Práticos</h2>
+                    <p>Pratique o que você aprendeu com exercícios interativos</p>
+                </div>
+                
+                <div class="exercicios-grid">
+                    <div class="exercicio-card">
+                        <div class="exercicio-icon">
+                            <i class="fas fa-listening"></i>
+                        </div>
+                        <h3>Compreensão Auditiva</h3>
+                        <p>Melhore sua capacidade de entender inglês falado</p>
+                        <button class="btn btn-outline" onclick="iniciarExercicioAudicao()">Praticar</button>
+                    </div>
+
+                    <div class="exercicio-card">
+                        <div class="exercicio-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Conversação</h3>
+                        <p>Pratique diálogos e situações reais</p>
+                        <button class="btn btn-outline" onclick="iniciarExercicioConversacao()">Praticar</button>
+                    </div>
+
+                    <div class="exercicio-card">
+                        <div class="exercicio-icon">
+                            <i class="fas fa-pen"></i>
+                        </div>
+                        <h3>Gramática</h3>
+                        <p>Exercícios de fixação gramatical</p>
+                        <button class="btn btn-outline" onclick="iniciarExercicioGramatica()">Praticar</button>
+                    </div>
+
+                    <div class="exercicio-card">
+                        <div class="exercicio-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Vocabulário</h3>
+                        <p>Expanda seu vocabulário com exercícios</p>
+                        <button class="btn btn-outline" onclick="iniciarExercicioVocabulario()">Praticar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Curso Completo de Inglês</h3>
+                    <p>Aprenda inglês do básico ao avançado com conteúdo estruturado e exercícios práticos.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Níveis</h4>
+                    <ul>
+                        <li><a href="#niveis">A1 - Iniciante</a></li>
+                        <li><a href="#niveis">B1 - Intermediário</a></li>
+                        <li><a href="#niveis">B2 - Independente</a></li>
+                        <li><a href="#niveis">C1 - Avançado</a></li>
+                        <li><a href="#niveis">C2 - Maestria</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#pronuncia">Guia de Pronúncia</a></li>
+                        <li><a href="#exercicios">Exercícios</a></li>
+                        <li><a href="#niveis">Conteúdo Completo</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Curso Completo de Inglês. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <audio id="audio-global" style="display:none"></audio>
+</body>
+</html> 
