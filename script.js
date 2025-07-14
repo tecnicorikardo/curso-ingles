@@ -4,6 +4,7 @@
 
 // Exercícios de Compreensão Auditiva
 const exerciciosAudicao = [
+    // NÍVEL BÁSICO (A1-A2)
     {
         titulo: "Diálogo Básico - Apresentações",
         audio: "Hello! What's your name?",
@@ -14,8 +15,206 @@ const exerciciosAudicao = [
             "De onde você é?",
             "Que horas são?"
         ],
-        resposta: 1
+        resposta: 1,
+        nivel: "A1"
     },
+    {
+        titulo: "Vocabulário - Profissões",
+        audio: "doctor",
+        pergunta: "Que profissão é esta?",
+        opcoes: [
+            "Professor",
+            "Médico",
+            "Engenheiro",
+            "Advogado"
+        ],
+        resposta: 1,
+        nivel: "A1"
+    },
+    {
+        titulo: "Vocabulário - Comida",
+        audio: "apple",
+        pergunta: "Que fruta é esta?",
+        opcoes: [
+            "Banana",
+            "Maçã",
+            "Laranja",
+            "Uva"
+        ],
+        resposta: 1,
+        nivel: "A1"
+    },
+    {
+        titulo: "Vocabulário - Cores",
+        audio: "red",
+        pergunta: "Que cor é esta?",
+        opcoes: [
+            "Azul",
+            "Verde",
+            "Vermelho",
+            "Amarelo"
+        ],
+        resposta: 2,
+        nivel: "A1"
+    },
+    {
+        titulo: "Vocabulário - Comida Básica",
+        audio: "bread",
+        pergunta: "Que alimento é este?",
+        opcoes: [
+            "Arroz",
+            "Pão",
+            "Leite",
+            "Frango"
+        ],
+        resposta: 1,
+        nivel: "A1"
+    },
+    {
+        titulo: "Vocabulário - Profissões",
+        audio: "teacher",
+        pergunta: "Que profissão é esta?",
+        opcoes: [
+            "Médico",
+            "Professor",
+            "Enfermeiro",
+            "Advogado"
+        ],
+        resposta: 1,
+        nivel: "A1"
+    },
+    {
+        titulo: "Vocabulário - Cores",
+        audio: "blue",
+        pergunta: "Que cor é esta?",
+        opcoes: [
+            "Verde",
+            "Azul",
+            "Roxo",
+            "Amarelo"
+        ],
+        resposta: 1,
+        nivel: "A1"
+    },
+    {
+        titulo: "Vocabulário - Comida",
+        audio: "chicken",
+        pergunta: "Que carne é esta?",
+        opcoes: [
+            "Carne de vaca",
+            "Frango",
+            "Peixe",
+            "Porco"
+        ],
+        resposta: 1,
+        nivel: "A1"
+    },
+    {
+        titulo: "Vocabulário - Cores",
+        audio: "green",
+        pergunta: "Que cor é esta?",
+        opcoes: [
+            "Azul",
+            "Verde",
+            "Amarelo",
+            "Roxo"
+        ],
+        resposta: 1,
+        nivel: "A1"
+    },
+    {
+        titulo: "Vocabulário - Comida",
+        audio: "rice",
+        pergunta: "Que grão é este?",
+        opcoes: [
+            "Feijão",
+            "Arroz",
+            "Milho",
+            "Trigo"
+        ],
+        resposta: 1,
+        nivel: "A1"
+    },
+    {
+        titulo: "Vocabulário - Bebida",
+        audio: "milk",
+        pergunta: "Que bebida é esta?",
+        opcoes: [
+            "Água",
+            "Suco",
+            "Leite",
+            "Café"
+        ],
+        resposta: 2,
+        nivel: "A1"
+    },
+    {
+        titulo: "Vocabulário - Profissões",
+        audio: "engineer",
+        pergunta: "Que profissão é esta?",
+        opcoes: [
+            "Arquiteto",
+            "Engenheiro",
+            "Técnico",
+            "Designer"
+        ],
+        resposta: 1,
+        nivel: "A2"
+    },
+    {
+        titulo: "Vocabulário - Profissões",
+        audio: "lawyer",
+        pergunta: "Que profissão é esta?",
+        opcoes: [
+            "Juiz",
+            "Advogado",
+            "Promotor",
+            "Delegado"
+        ],
+        resposta: 1,
+        nivel: "A2"
+    },
+    {
+        titulo: "Vocabulário - Profissões",
+        audio: "nurse",
+        pergunta: "Que profissão é esta?",
+        opcoes: [
+            "Médico",
+            "Enfermeiro",
+            "Farmacêutico",
+            "Técnico"
+        ],
+        resposta: 1,
+        nivel: "A2"
+    },
+    {
+        titulo: "Vocabulário - Cores",
+        audio: "yellow",
+        pergunta: "Que cor é esta?",
+        opcoes: [
+            "Laranja",
+            "Amarelo",
+            "Dourado",
+            "Bege"
+        ],
+        resposta: 1,
+        nivel: "A2"
+    },
+    {
+        titulo: "Vocabulário - Cores",
+        audio: "purple",
+        pergunta: "Que cor é esta?",
+        opcoes: [
+            "Azul",
+            "Roxo",
+            "Rosa",
+            "Violeta"
+        ],
+        resposta: 1,
+        nivel: "A2"
+    },
+    
+    // NÍVEL INTERMEDIÁRIO (B1-B2)
     {
         titulo: "Diálogo - Perguntando sobre Trabalho",
         audio: "Where do you work?",
@@ -26,7 +225,8 @@ const exerciciosAudicao = [
             "Quando você trabalha?",
             "Como você trabalha?"
         ],
-        resposta: 0
+        resposta: 0,
+        nivel: "B1"
     },
     {
         titulo: "Diálogo - Planos para o Fim de Semana",
@@ -38,7 +238,295 @@ const exerciciosAudicao = [
             "Quando você vai sair?",
             "Com quem você vai sair?"
         ],
-        resposta: 0
+        resposta: 0,
+        nivel: "B1"
+    },
+    {
+        titulo: "Diálogo - Restaurante",
+        audio: "I'd like to order, please.",
+        pergunta: "O que a pessoa está dizendo?",
+        opcoes: [
+            "Eu quero pagar a conta",
+            "Eu gostaria de fazer um pedido",
+            "Eu quero ver o cardápio",
+            "Eu quero reservar uma mesa"
+        ],
+        resposta: 1,
+        nivel: "B1"
+    },
+    {
+        titulo: "Diálogo - Restaurante",
+        audio: "Could I have the menu?",
+        pergunta: "O que a pessoa está pedindo?",
+        opcoes: [
+            "A conta, por favor",
+            "O cardápio, por favor",
+            "Água, por favor",
+            "Uma mesa, por favor"
+        ],
+        resposta: 1,
+        nivel: "B1"
+    },
+    {
+        titulo: "Diálogo - Restaurante",
+        audio: "What do you recommend?",
+        pergunta: "O que a pessoa quer saber?",
+        opcoes: [
+            "O que você recomenda?",
+            "O que tem de especial?",
+            "Qual é o prato do dia?",
+            "O que é mais popular?"
+        ],
+        resposta: 0,
+        nivel: "B1"
+    },
+    {
+        titulo: "Diálogo - Restaurante",
+        audio: "I'll have the same, please.",
+        pergunta: "O que a pessoa está dizendo?",
+        opcoes: [
+            "Eu quero o mesmo",
+            "Eu quero algo diferente",
+            "Eu quero a conta",
+            "Eu quero mais"
+        ],
+        resposta: 0,
+        nivel: "B1"
+    },
+    {
+        titulo: "Diálogo - Aeroporto",
+        audio: "Where is the check-in counter?",
+        pergunta: "O que a pessoa está perguntando?",
+        opcoes: [
+            "Onde fica o check-in?",
+            "Que horas é o voo?",
+            "Onde fica o portão?",
+            "Onde fica a bagagem?"
+        ],
+        resposta: 0,
+        nivel: "B2"
+    },
+    {
+        titulo: "Diálogo - Aeroporto",
+        audio: "What time does my flight leave?",
+        pergunta: "O que a pessoa quer saber?",
+        opcoes: [
+            "Que horas sai meu voo?",
+            "Que horas chega meu voo?",
+            "Qual é o portão?",
+            "Onde fica o avião?"
+        ],
+        resposta: 0,
+        nivel: "B2"
+    },
+    {
+        titulo: "Diálogo - Aeroporto",
+        audio: "Is my flight on time?",
+        pergunta: "O que a pessoa está perguntando?",
+        opcoes: [
+            "Meu voo está no horário?",
+            "Meu voo está atrasado?",
+            "Meu voo foi cancelado?",
+            "Meu voo mudou de portão?"
+        ],
+        resposta: 0,
+        nivel: "B2"
+    },
+    {
+        titulo: "Diálogo - Aeroporto",
+        audio: "Where can I find a taxi?",
+        pergunta: "O que a pessoa está procurando?",
+        opcoes: [
+            "Onde posso encontrar um táxi?",
+            "Onde posso alugar um carro?",
+            "Onde fica o estacionamento?",
+            "Onde fica a saída?"
+        ],
+        resposta: 0,
+        nivel: "B2"
+    },
+    {
+        titulo: "Diálogo - Hotel",
+        audio: "I have a reservation.",
+        pergunta: "O que a pessoa está dizendo?",
+        opcoes: [
+            "Eu tenho uma reserva",
+            "Eu quero fazer uma reserva",
+            "Eu preciso de um quarto",
+            "Eu quero cancelar"
+        ],
+        resposta: 0,
+        nivel: "B2"
+    },
+    {
+        titulo: "Diálogo - Hotel",
+        audio: "What time is breakfast?",
+        pergunta: "O que a pessoa quer saber?",
+        opcoes: [
+            "Que horas é o café da manhã?",
+            "Que horas é o almoço?",
+            "Que horas é o jantar?",
+            "Que horas é o check-out?"
+        ],
+        resposta: 0,
+        nivel: "B2"
+    },
+    {
+        titulo: "Diálogo - Hotel",
+        audio: "Could I have an extra towel?",
+        pergunta: "O que a pessoa está pedindo?",
+        opcoes: [
+            "Uma toalha extra",
+            "Um travesseiro extra",
+            "Um cobertor extra",
+            "Um sabonete extra"
+        ],
+        resposta: 0,
+        nivel: "B2"
+    },
+    {
+        titulo: "Diálogo - Hotel",
+        audio: "How do I get to the city center?",
+        pergunta: "O que a pessoa quer saber?",
+        opcoes: [
+            "Como chego ao centro da cidade?",
+            "Onde fica o centro?",
+            "Qual é o caminho?",
+            "Quanto tempo leva?"
+        ],
+        resposta: 0,
+        nivel: "B2"
+    },
+    // NÍVEL AVANÇADO (Situações do cotidiano, áudios a gravar)
+    {
+        titulo: "No supermercado",
+        audio: "Where can I find the bread?",
+        pergunta: "O que a pessoa está procurando?",
+        opcoes: [
+            "O pão",
+            "O leite",
+            "O arroz",
+            "O caixa"
+        ],
+        resposta: 0,
+        nivel: "A2"
+    },
+    {
+        titulo: "No ponto de ônibus",
+        audio: "What time does the next bus arrive?",
+        pergunta: "O que a pessoa quer saber?",
+        opcoes: [
+            "O preço da passagem",
+            "O horário do próximo ônibus",
+            "O destino do ônibus",
+            "O número do ônibus"
+        ],
+        resposta: 1,
+        nivel: "A2"
+    },
+    {
+        titulo: "No médico",
+        audio: "I have a headache.",
+        pergunta: "Qual é o problema da pessoa?",
+        opcoes: [
+            "Dor de estômago",
+            "Dor de cabeça",
+            "Febre",
+            "Tosse"
+        ],
+        resposta: 1,
+        nivel: "A2"
+    },
+    {
+        titulo: "No hotel",
+        audio: "Can I have a wake-up call at 7 a.m.?",
+        pergunta: "O que a pessoa está pedindo?",
+        opcoes: [
+            "Um táxi",
+            "Um café da manhã",
+            "Um serviço de despertar",
+            "Uma toalha extra"
+        ],
+        resposta: 2,
+        nivel: "B1"
+    },
+    {
+        titulo: "No restaurante",
+        audio: "Could I get the bill, please?",
+        pergunta: "O que a pessoa está pedindo?",
+        opcoes: [
+            "O cardápio",
+            "A conta",
+            "A sobremesa",
+            "A bebida"
+        ],
+        resposta: 1,
+        nivel: "B1"
+    },
+    {
+        titulo: "No aeroporto",
+        audio: "Where is the baggage claim?",
+        pergunta: "O que a pessoa está procurando?",
+        opcoes: [
+            "O portão de embarque",
+            "O banheiro",
+            "A esteira de bagagens",
+            "O balcão de informações"
+        ],
+        resposta: 2,
+        nivel: "B1"
+    },
+    {
+        titulo: "No táxi",
+        audio: "Can you take me to the city center?",
+        pergunta: "O que a pessoa está pedindo?",
+        opcoes: [
+            "Ir ao aeroporto",
+            "Ir ao centro da cidade",
+            "Ir ao hotel",
+            "Ir à estação de trem"
+        ],
+        resposta: 1,
+        nivel: "B1"
+    },
+    {
+        titulo: "Compras",
+        audio: "How much does this cost?",
+        pergunta: "O que a pessoa quer saber?",
+        opcoes: [
+            "O preço",
+            "O tamanho",
+            "A cor",
+            "A marca"
+        ],
+        resposta: 0,
+        nivel: "B1"
+    },
+    {
+        titulo: "No telefone",
+        audio: "Can I speak to Mr. Smith, please?",
+        pergunta: "O que a pessoa quer?",
+        opcoes: [
+            "Falar com o Sr. Smith",
+            "Falar com a recepção",
+            "Fazer uma reserva",
+            "Pedir comida"
+        ],
+        resposta: 0,
+        nivel: "B2"
+    },
+    {
+        titulo: "Emergência",
+        audio: "I need help, please!",
+        pergunta: "O que a pessoa está pedindo?",
+        opcoes: [
+            "Ajuda",
+            "Dinheiro",
+            "Informação",
+            "Comida"
+        ],
+        resposta: 0,
+        nivel: "B2"
     }
 ];
 
